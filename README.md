@@ -1,6 +1,6 @@
 # useMemo and useCallback intro
 
-This a short introduction of emoization in React.
+This a short introduction of memoization in React.
 
 To set up the project :
 
