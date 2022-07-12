@@ -1,5 +1,15 @@
+import BasicCallback from "./components/BasicCallback"
+import BasicMemo from "./components/BasicMemo"
+import ContextMemo from "./components/ContextMemo"
+
 function App() {
-  return <div className="App"></div>
+  return (
+    <>
+      {/* <BasicMemo /> */}
+      {/* <BasicCallback /> */}
+      <ContextMemo />
+    </>
+  )
 }
 
 export default App
