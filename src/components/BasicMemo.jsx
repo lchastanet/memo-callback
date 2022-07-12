@@ -1,10 +1,10 @@
-import React, { useState, useMemo } from "react"
+import React, { useState } from "react"
 
 function BasicMemo() {
   const [state1, setState1] = useState(false)
   const [state2, setState2] = useState(false)
 
-  const treatment = useMemo(() => doSomethingHeavy(state2), [state2])
+  const treatment = doSomethingHeavy(state2)
 
   return (
     <>

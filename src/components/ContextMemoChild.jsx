@@ -1,4 +1,4 @@
-import React, { useContext, memo } from "react"
+import React, { useContext } from "react"
 
 import { MemoContext } from "../contexts/MemoContext"
 
@@ -10,4 +10,4 @@ function ContextMemoChild() {
   return <button onClick={changeValue}>Update Context</button>
 }
 
-export default memo(ContextMemoChild)
+export default ContextMemoChild

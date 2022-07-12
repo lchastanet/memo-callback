@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react"
+import React, { useState } from "react"
 import BasicCallbackChild from "./BasicCallbackChild"
 
 function BasicCallback() {
@@ -6,7 +6,7 @@ function BasicCallback() {
   const [state2, setState2] = useState(false)
 
   const changeState1 = () => setState1(!state1)
-  const changeState2 = useCallback(() => setState2(!state2), [state2])
+  const changeState2 = () => setState2(!state2)
 
   return (
     <>
